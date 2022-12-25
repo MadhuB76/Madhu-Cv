@@ -1,3 +1,12 @@
+.container{
+  width: 600px;
+  margin: auto;
+  border: 2px double black;
+  padding: 20px;
+  background-color: rgb(221, 224, 186);
+  /* text-align: center; */
+}
+
 body {
     background-color: #eaf6f6;
   }
@@ -8,5 +17,29 @@ body {
     width: 5%;
   }
   h1,h3{
-    color: #66bfbf;
+    color: #af1919;
+    text-align: center;
   }
+  ul{
+    padding-left: 200px;
+  }
+  .table1{
+    padding-left: 200px;
+
+  }
+ .table1  th , .table1 td{
+  padding-right: 35px;
+ }
+ .last{
+  text-align: center;
+  padding: 15px;
+  line-height: 25px;
+ }
+ .table2{
+  padding-left: 75px;
+  text-align: center;
+ }
+
+ a{
+  text-decoration: none;
+ }
